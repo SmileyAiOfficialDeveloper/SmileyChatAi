@@ -11,4 +11,4 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def on_ready():
     print(f"Smiley is online as {bot.user}")
 
-bot.run(os.getenv("MTU1MTIxNTIyOTA4MDQzNjc0Ng.GGnLg9.ZzV4YXoznWmAEqKWYhaaE3OGPmtWr3XybLFcG8"))
+bot.run(os.getenv("DISCORD_TOKEN"))
